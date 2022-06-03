@@ -3,8 +3,10 @@ const numberIncrement = document.querySelector("#number-increment");
 const colorChange = () => {
     if (parseInt(numberIncrement.textContent) < 0){
         numberIncrement.style.color = 'red';
-    }else{
+    }else if(parseInt(numberIncrement.textContent) === 0){
         numberIncrement.style.color = 'black';
+    }else{
+        numberIncrement.style.color = '#009300';
     }
     
 }   
