@@ -1,0 +1,49 @@
+body{
+    background-color: #202020;
+}
+h1{
+    margin-left: 27%;
+    padding-top: 5px;
+    color: #02A3FF;
+}
+h3{
+    color: #0D3CD4;
+    
+}
+.homePage { 
+    border-radius: 8px;
+    background-color: #47007E;
+    width: 300px; 
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto; 
+}
+p{
+    font-size: 40px;
+    margin-left: 42%;
+    padding: 8px;
+}
+.buttons{
+    width: 270px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+#incrementar, #decrementar {
+    cursor: pointer;
+    background-color: #47007E;
+    border: 2px solid #3A0066;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 15px; 
+}
+
+#incrementar:hover{
+    transition: all 0.4s ease-in;
+    background-color: #3CFF3C;
+}
+
+#decrementar:hover{
+    transition: all 0.4s ease-in;
+    background-color: #FF3333;
+}
